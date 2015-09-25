@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4AA820C51BB4D33700994364 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA820C41BB4D33700994364 /* AppDelegate.swift */; };
+		4AA820C81BB4D33700994364 /* Noumena.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4AA820C61BB4D33700994364 /* Noumena.xcdatamodeld */; };
+		4AA820CA1BB4D33700994364 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA820C91BB4D33700994364 /* ViewController.swift */; };
+		4AA820CD1BB4D33700994364 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AA820CB1BB4D33700994364 /* Main.storyboard */; };
+		4AA820CF1BB4D33700994364 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AA820CE1BB4D33700994364 /* Images.xcassets */; };
+		4AA820D21BB4D33700994364 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AA820D01BB4D33700994364 /* LaunchScreen.xib */; };
+		4AA820DE1BB4D33700994364 /* NoumenaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA820DD1BB4D33700994364 /* NoumenaTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4AA820D81BB4D33700994364 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4AA820B71BB4D33700994364 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4AA820BE1BB4D33700994364;
+			remoteInfo = Noumena;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4AA820BF1BB4D33700994364 /* Noumena.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Noumena.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AA820C31BB4D33700994364 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AA820C41BB4D33700994364 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4AA820C71BB4D33700994364 /* Noumena.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Noumena.xcdatamodel; sourceTree = "<group>"; };
+		4AA820C91BB4D33700994364 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4AA820CC1BB4D33700994364 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4AA820CE1BB4D33700994364 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4AA820D11BB4D33700994364 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		4AA820D71BB4D33700994364 /* NoumenaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoumenaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AA820DC1BB4D33700994364 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AA820DD1BB4D33700994364 /* NoumenaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoumenaTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4AA820BC1BB4D33700994364 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AA820D41BB4D33700994364 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4AA820B61BB4D33600994364 = {
+			isa = PBXGroup;
+			children = (
+				4AA820C11BB4D33700994364 /* Noumena */,
+				4AA820DA1BB4D33700994364 /* NoumenaTests */,
+				4AA820C01BB4D33700994364 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4AA820C01BB4D33700994364 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4AA820BF1BB4D33700994364 /* Noumena.app */,
+				4AA820D71BB4D33700994364 /* NoumenaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4AA820C11BB4D33700994364 /* Noumena */ = {
+			isa = PBXGroup;
+			children = (
+				4AA820C41BB4D33700994364 /* AppDelegate.swift */,
+				4AA820C91BB4D33700994364 /* ViewController.swift */,
+				4AA820CB1BB4D33700994364 /* Main.storyboard */,
+				4AA820CE1BB4D33700994364 /* Images.xcassets */,
+				4AA820D01BB4D33700994364 /* LaunchScreen.xib */,
+				4AA820C61BB4D33700994364 /* Noumena.xcdatamodeld */,
+				4AA820C21BB4D33700994364 /* Supporting Files */,
+			);
+			path = Noumena;
+			sourceTree = "<group>";
+		};
+		4AA820C21BB4D33700994364 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4AA820C31BB4D33700994364 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4AA820DA1BB4D33700994364 /* NoumenaTests */ = {
+			isa = PBXGroup;
+			children = (
+				4AA820DD1BB4D33700994364 /* NoumenaTests.swift */,
+				4AA820DB1BB4D33700994364 /* Supporting Files */,
+			);
+			path = NoumenaTests;
+			sourceTree = "<group>";
+		};
+		4AA820DB1BB4D33700994364 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4AA820DC1BB4D33700994364 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4AA820BE1BB4D33700994364 /* Noumena */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AA820E11BB4D33700994364 /* Build configuration list for PBXNativeTarget "Noumena" */;
+			buildPhases = (
+				4AA820BB1BB4D33700994364 /* Sources */,
+				4AA820BC1BB4D33700994364 /* Frameworks */,
+				4AA820BD1BB4D33700994364 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Noumena;
+			productName = Noumena;
+			productReference = 4AA820BF1BB4D33700994364 /* Noumena.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4AA820D61BB4D33700994364 /* NoumenaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AA820E41BB4D33700994364 /* Build configuration list for PBXNativeTarget "NoumenaTests" */;
+			buildPhases = (
+				4AA820D31BB4D33700994364 /* Sources */,
+				4AA820D41BB4D33700994364 /* Frameworks */,
+				4AA820D51BB4D33700994364 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4AA820D91BB4D33700994364 /* PBXTargetDependency */,
+			);
+			name = NoumenaTests;
+			productName = NoumenaTests;
+			productReference = 4AA820D71BB4D33700994364 /* NoumenaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4AA820B71BB4D33700994364 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = PDice;
+				TargetAttributes = {
+					4AA820BE1BB4D33700994364 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					4AA820D61BB4D33700994364 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 4AA820BE1BB4D33700994364;
+					};
+				};
+			};
+			buildConfigurationList = 4AA820BA1BB4D33700994364 /* Build configuration list for PBXProject "Noumena" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4AA820B61BB4D33600994364;
+			productRefGroup = 4AA820C01BB4D33700994364 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4AA820BE1BB4D33700994364 /* Noumena */,
+				4AA820D61BB4D33700994364 /* NoumenaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4AA820BD1BB4D33700994364 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AA820CD1BB4D33700994364 /* Main.storyboard in Resources */,
+				4AA820D21BB4D33700994364 /* LaunchScreen.xib in Resources */,
+				4AA820CF1BB4D33700994364 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AA820D51BB4D33700994364 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4AA820BB1BB4D33700994364 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AA820CA1BB4D33700994364 /* ViewController.swift in Sources */,
+				4AA820C51BB4D33700994364 /* AppDelegate.swift in Sources */,
+				4AA820C81BB4D33700994364 /* Noumena.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AA820D31BB4D33700994364 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AA820DE1BB4D33700994364 /* NoumenaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4AA820D91BB4D33700994364 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4AA820BE1BB4D33700994364 /* Noumena */;
+			targetProxy = 4AA820D81BB4D33700994364 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4AA820CB1BB4D33700994364 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AA820CC1BB4D33700994364 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4AA820D01BB4D33700994364 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AA820D11BB4D33700994364 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4AA820DF1BB4D33700994364 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4AA820E01BB4D33700994364 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4AA820E21BB4D33700994364 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Noumena/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4AA820E31BB4D33700994364 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Noumena/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4AA820E51BB4D33700994364 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NoumenaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Noumena.app/Noumena";
+			};
+			name = Debug;
+		};
+		4AA820E61BB4D33700994364 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NoumenaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Noumena.app/Noumena";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4AA820BA1BB4D33700994364 /* Build configuration list for PBXProject "Noumena" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AA820DF1BB4D33700994364 /* Debug */,
+				4AA820E01BB4D33700994364 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AA820E11BB4D33700994364 /* Build configuration list for PBXNativeTarget "Noumena" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AA820E21BB4D33700994364 /* Debug */,
+				4AA820E31BB4D33700994364 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4AA820E41BB4D33700994364 /* Build configuration list for PBXNativeTarget "NoumenaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AA820E51BB4D33700994364 /* Debug */,
+				4AA820E61BB4D33700994364 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4AA820C61BB4D33700994364 /* Noumena.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4AA820C71BB4D33700994364 /* Noumena.xcdatamodel */,
+			);
+			currentVersion = 4AA820C71BB4D33700994364 /* Noumena.xcdatamodel */;
+			path = Noumena.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4AA820B71BB4D33700994364 /* Project object */;
+}
