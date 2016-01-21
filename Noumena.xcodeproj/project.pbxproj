@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A46C9641C4F1BBC00F4C29F /* UIExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A46C9631C4F1BBC00F4C29F /* UIExtensions.swift */; };
 		4AA820C51BB4D33700994364 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA820C41BB4D33700994364 /* AppDelegate.swift */; };
 		4AA820C81BB4D33700994364 /* Noumena.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4AA820C61BB4D33700994364 /* Noumena.xcdatamodeld */; };
-		4AA820CA1BB4D33700994364 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA820C91BB4D33700994364 /* ViewController.swift */; };
+		4AA820CA1BB4D33700994364 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA820C91BB4D33700994364 /* IntroViewController.swift */; };
 		4AA820CD1BB4D33700994364 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AA820CB1BB4D33700994364 /* Main.storyboard */; };
 		4AA820CF1BB4D33700994364 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AA820CE1BB4D33700994364 /* Images.xcassets */; };
 		4AA820D21BB4D33700994364 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AA820D01BB4D33700994364 /* LaunchScreen.xib */; };
 		4AA820DE1BB4D33700994364 /* NoumenaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA820DD1BB4D33700994364 /* NoumenaTests.swift */; };
+		4AA820E81BB4D62C00994364 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA820E71BB4D62C00994364 /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,17 +29,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4A46C9631C4F1BBC00F4C29F /* UIExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIExtensions.swift; sourceTree = "<group>"; };
 		4AA820BF1BB4D33700994364 /* Noumena.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Noumena.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AA820C31BB4D33700994364 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4AA820C41BB4D33700994364 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4AA820C71BB4D33700994364 /* Noumena.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Noumena.xcdatamodel; sourceTree = "<group>"; };
-		4AA820C91BB4D33700994364 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4AA820C91BB4D33700994364 /* IntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
 		4AA820CC1BB4D33700994364 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4AA820CE1BB4D33700994364 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4AA820D11BB4D33700994364 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		4AA820D71BB4D33700994364 /* NoumenaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoumenaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AA820DC1BB4D33700994364 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4AA820DD1BB4D33700994364 /* NoumenaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoumenaTests.swift; sourceTree = "<group>"; };
+		4AA820E71BB4D62C00994364 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4A46C9621C4F1B6600F4C29F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4A46C9631C4F1BBC00F4C29F /* UIExtensions.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
 		4AA820B61BB4D33600994364 = {
 			isa = PBXGroup;
 			children = (
@@ -79,8 +91,10 @@
 		4AA820C11BB4D33700994364 /* Noumena */ = {
 			isa = PBXGroup;
 			children = (
+				4A46C9621C4F1B6600F4C29F /* Extensions */,
 				4AA820C41BB4D33700994364 /* AppDelegate.swift */,
-				4AA820C91BB4D33700994364 /* ViewController.swift */,
+				4AA820C91BB4D33700994364 /* IntroViewController.swift */,
+				4AA820E71BB4D62C00994364 /* HomeViewController.swift */,
 				4AA820CB1BB4D33700994364 /* Main.storyboard */,
 				4AA820CE1BB4D33700994364 /* Images.xcassets */,
 				4AA820D01BB4D33700994364 /* LaunchScreen.xib */,
@@ -215,9 +229,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4AA820CA1BB4D33700994364 /* ViewController.swift in Sources */,
+				4AA820CA1BB4D33700994364 /* IntroViewController.swift in Sources */,
 				4AA820C51BB4D33700994364 /* AppDelegate.swift in Sources */,
 				4AA820C81BB4D33700994364 /* Noumena.xcdatamodeld in Sources */,
+				4A46C9641C4F1BBC00F4C29F /* UIExtensions.swift in Sources */,
+				4AA820E81BB4D62C00994364 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +429,7 @@
 				4AA820E31BB4D33700994364 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4AA820E41BB4D33700994364 /* Build configuration list for PBXNativeTarget "NoumenaTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +438,7 @@
 				4AA820E61BB4D33700994364 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
